@@ -1,0 +1,20 @@
+{
+  "name": "markitdown",
+  "version": "0.1.1",
+  "description": "Convert various files to markdown using Microsoft MarkItDown",
+  "mcpServers": {
+    "markitdown": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "${extensionPath}/packages/markitdown-mcp",
+        "--python",
+        "3.13",
+        "python",
+        "-m",
+        "markitdown_mcp"
+      ]
+    }
+  }
+}
